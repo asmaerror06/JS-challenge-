@@ -30,9 +30,39 @@ let nest1 = 4;
 let nest2 = 7;
 
 if(nest1>nest){
-    console.log("Nested number is greater");
+    console.log("Nested number is great");
 } else if(nest2 > nest1){
-    console.log("Nested number is greater");
+    console.log("Nested number is greatest");
 }else {
     console.log("Nested number is greater");
 }
+
+// Task 4
+
+const getDay = 1;
+
+switch(getDay) {
+    case 0:
+        day = "Sunday";
+        break;
+    case 1:
+        day = "Monday";
+        break;
+    case 2:
+        day = "Tuesday";
+        break;
+    case 3:
+        day = "Wednesday";
+        break;
+    case 4:
+        day = "Thursday";
+        break;
+    case 5:
+        day = "Friday";
+        break;
+    case 6:
+        day = "Saturday";
+        break;
+
+}
+console.log(day);
